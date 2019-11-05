@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+#show-area{
+    width:100%;
+    overflow: hidden;
+    position:relative;
+}
+#imgOuter{
+    position:relative;
+    top:0;
+    left:0;
+}
+#imgOuter li img{
+    width:100%;
+    display:block;
+}
+#indicator{
+    position:absolute;
+    z-index:10;
+    right:20px;
+    top:50%;
+    transform: translateY(-50%);
+}
+#indicator li{
+    width:20px;
+    height:20px;
+    background-color:black;
+    border-radius:10px;
+}
